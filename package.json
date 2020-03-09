@@ -2,9 +2,10 @@
   "name": "FP_Port",
   "version": "1.0.0",
   "description": "",
-  "main": "webpack.common.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --config webpack.dev.js --open",
+    "build": "webpack --config webpack.prod.js"
   },
   "repository": {
     "type": "git",
