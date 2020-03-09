@@ -1,0 +1,25 @@
+@import "./typography";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  // scroll-behavior: smooth;
+}
+
+body {
+// Font
+  $sans-serif: "Montserrat", Helvetica, Verdana, sans-serif;
+  $serif: "Playfair Display", Georgia, serif;
+
+  $light: 300;
+  $normal: 400;
+
+  font-family: $serif;
+  font-weight: $normal;
+  overflow-x: hidden;
+}
