@@ -1,0 +1,44 @@
+// flex row centered
+.frc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// flex column centered
+.fcc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+// flex column spaced between
+.fcsb {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+// flex column spaced evenly
+.fcse {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+// flex row spaced between
+.frsb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+// flex row spaced evenly
+.frse {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}

@@ -12,7 +12,7 @@ html {
 }
 
 body {
-// Font
+  // Font
   $sans-serif: "Montserrat", Helvetica, Verdana, sans-serif;
   $serif: "Playfair Display", Georgia, serif;
 
@@ -22,4 +22,19 @@ body {
   font-family: $serif;
   font-weight: $normal;
   overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:active,
+a:hover,
+a:visited,
+a:link {
+  color: $primary-500;
 }

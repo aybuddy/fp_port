@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-
-      <!-- Global site tag (gtag.js) - Google Analytics -->
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=UA-151513700-1"
@@ -16,9 +15,9 @@
 
       gtag("config", "UA-151513700-1");
     </script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
       href="https://fonts.googleapis.com/css?family=Montserrat:300,400|Playfair+Display&display=swap"
       rel="stylesheet"
     />
@@ -28,22 +27,53 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" type="text/css" href="../node_modules/fullpage.js/dist/fullpage.css" />
-  <title>Aaron Yu</title>
-</head>
-<body>
-  <div id="fullPage">
-      <div class="section s1 active">Home</div>
-      <div class="section s2">
-          <h2>Projects</h2>
-          <div class="slide"> Slide 1 </div>
-          <div class="slide"> Slide 2 </div>
-          <div class="slide"> Slide 3 </div>
-          <div class="slide"> Slide 4 </div>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../node_modules/fullpage.js/dist/fullpage.css"
+    />
+    <title>Aaron Yu</title>
+  </head>
+  <body>
+    <div id="fullPage">
+      <div class="section active flc" id="hero">
+        <div class="hero__container">
+          <div class="hero__container__left">
+            <h1>Aaron Yu</h1>
+          </div>
+          <div class="hero__container__right fcse">
+            <h2>Web Developer</h2>
+            <ul class="hero__container__right__social frse">
+              <li>
+                <a href="https://github.com/aybuddy" target="_blank">
+                  <i class="fab fa-github fa-4x"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/aaronyu-dev/"
+                  target="_blank"
+                >
+                  <i class="fab fa-linkedin fa-4x"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <div class="section s3">About</div>
-      <div class="section s4">Contact</div>
-  </div>
-  <script type="text/javascript" src="../node_modules/fullpage.js/dist/fullpage.js"></script>
-</body>
+      <div class="section" id="section2">
+        <h2>Projects</h2>
+        <div class="slide">Slide 1</div>
+        <div class="slide">Slide 2</div>
+        <div class="slide">Slide 3</div>
+        <div class="slide">Slide 4</div>
+      </div>
+      <div class="section" id="section3">About</div>
+      <div class="section" id="section4">Contact</div>
+    </div>
+    <script
+      type="text/javascript"
+      src="../node_modules/fullpage.js/dist/fullpage.js"
+    ></script>
+  </body>
 </html>
