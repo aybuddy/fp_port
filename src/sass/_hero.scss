@@ -1,50 +1,50 @@
 @import "./base";
 
-#hero {
-  background-color: $neutral-900;
+#heros {
+    background-color: $neutral-900;
 }
 
 .hero__container {
-  height: 70vh;
-  width: 85vw;
-  margin: 0 auto;
-  display: flex;
-  border: 1px solid $primary-600;
-  box-shadow: 0px 10px 14px 0px rgb(114, 114, 114);
-  border-radius: 5px;
-
-  &__left {
+    height: 70vh;
+    width: 85vw;
+    margin: 0 auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    background-color: $primary-800;
-    height: 100%;
-    h1 {
-      text-align: center;
-      font-size: 10rem;
-      color: $primary-100;
-    }
-  }
+    border: 1px solid $primary-600;
+    box-shadow: 0px 10px 14px 0px rgb(114, 114, 114);
+    border-radius: 5px;
 
-  &__right {
-    width: 50%;
-    background: linear-gradient(
-        to bottom,
-        rgba(0, 0, 0, 0.8),
-        rgba(0, 0, 0, 0.4)
-      ),
-      url("../assets/link.jpg");
-    background-size: cover;
-    h2 {
-      font-size: 5rem;
-      color: $primary-100;
+    &__left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        background-color: $primary-800;
+        height: 100%;
+        h1 {
+            text-align: center;
+            font-size: 10rem;
+            color: $primary-100;
+        }
     }
 
-    &__social {
-      li {
-        padding: 0 50px;
-      }
+    &__right {
+        width: 50%;
+        background: linear-gradient(
+                to bottom,
+                rgba(0, 0, 0, 0.8),
+                rgba(0, 0, 0, 0.4)
+            ),
+            url("../assets/link.jpg");
+        background-size: cover;
+        h2 {
+            font-size: 5rem;
+            color: $primary-100;
+        }
+
+        &__social {
+            li {
+                padding: 0 50px;
+            }
+        }
     }
-  }
 }

@@ -1,0 +1,21 @@
+@import "./base";
+
+#abouts {
+    background-color: $neutral-800;
+}
+
+.about__container {
+    width: 75%;
+    padding: 200px 0;
+    margin: 0 auto;
+
+    h2 {
+        font-size: 6rem;
+        text-align: center;
+        color: $neutral-100;
+    }
+    h3 {
+        font-size: 4rem;
+        color: $neutral-100;
+    }
+}

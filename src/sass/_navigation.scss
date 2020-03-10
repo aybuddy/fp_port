@@ -1,0 +1,13 @@
+@import "./base";
+
+.nav {
+    position: fixed;
+    top: 20px;
+    z-index: 70;
+    width: 100%;
+    font-size: 1.6rem;
+
+    &__item a {
+        color: $neutral-100;
+    }
+}
